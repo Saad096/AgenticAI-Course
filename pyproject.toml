@@ -1,21 +1,17 @@
 [project]
-name = "agenticai"
+name = "agenticai-course"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "ipykernel>=6.29.5",
     "ipython>=8.37.0",
     "langchain>=0.3.26",
     "langchain-groq>=0.3.6",
-    "langchain-tavily>=0.2.7",
+    "langchain-tavily>=0.2.9",
     "langgraph>=0.5.3",
-    "langsmith>=0.4.5",
+    "langsmith>=0.4.6",
     "python-dotenv>=1.1.1",
-]
-
-[dependency-groups]
-dev = [
-    "ipykernel>=6.29.5",
-    "ipython>=8.37.0",
+    "requests>=2.32.4",
 ]
